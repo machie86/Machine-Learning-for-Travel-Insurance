@@ -41,11 +41,11 @@ The notebook is organized into the following sections:
    - Algorithms tested: Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and more.
    - Techniques to address imbalance: RandomOverSampler, class weight adjustment.
    - Pipeline with preprocessing (scaling, encoding) and feature selection (SelectKBest, SelectFromModel).
-   - Hyperparameter tuning using RandomizedSearchCV and GridSearchCV.
+   - Hyperparameter tuning using GridSearchCV.
 
 5. **Evaluation**:
    - Primary metric: Recall for the minority class (Claim) and F2-score to prioritize recall.
-   - Best model: Logistic Regression with recall of 0.86 and F2-score of 0.2457 for the Claim class.
+   - Best model: Logistic Regression with recall of 0.88 and F2-score of 0.2457 for the Claim class.
    - Confusion matrix analysis showing high recall (58 True Positives, 8 False Negatives) but low precision due to 847 False Positives.
 
 6. **Model Limitations**:
