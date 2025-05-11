@@ -12,7 +12,7 @@ The dataset contains historical travel insurance policyholder data with 44,328 e
 - **Numerical Features**: Duration, Net Sales, Commission, Age.
 
 **Key Challenges**:
-- Extreme class imbalance (96.71% No Claim vs. 3.29% Claim).
+- Extreme class imbalance (98% No Claim vs. 2% Claim).
 - Missing values in Gender (71.3% missing).
 - Data anomalies (e.g., negative Duration, unrealistic Age values like 0 or 118).
 - Duplicated rows (4,667 duplicates).
