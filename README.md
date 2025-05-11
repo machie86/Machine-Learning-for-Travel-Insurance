@@ -58,7 +58,7 @@ The notebook is organized into the following sections:
    - Business recommendations include optimizing premium pricing, reducing false positives, enhancing data quality, and improving operational efficiency.
 
 ## Key Findings
-- **Model Performance**: Logistic Regression achieves a recall of 0.86 for claims, detecting 88% of actual claims, but low precision (<0.07) due to 847 false positives.
+- **Model Performance**: Logistic Regression achieves a recall of 0.88 for claims, detecting 88% of actual claims, but low precision (<0.07) due to 847 false positives.
 - **Important Features**: `Price_Category`, `Net Sales`, and `Duration` are the most influential predictors of claims.
 - **Business Impact**: High recall supports risk management, but false positives increase operational costs. Improved data quality and feature engineering can enhance model accuracy.
 
